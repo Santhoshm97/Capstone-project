@@ -19,5 +19,7 @@ docker push "$DOCKER_USERNAME/${DOCKER_REPO}:${DOCKER_TAG}"
 
 echo "Deployment to Docker Hub completed successfully."
 
+docker compose down || true
+
 docker compose up -d
 
