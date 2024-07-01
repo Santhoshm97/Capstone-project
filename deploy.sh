@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DOCKER_USERNAME="elavarasanpkn"
-DOCKER_PASSWORD="dckr_pat_OsLqeDXp9lks3KIOuSblhEZZCag"
+DOCKER_USERNAME="san3326"
+DOCKER_PASSWORD="SanNS@3326"
 DOCKER_REPO="prod"
 DOCKER_TAG="latest"
 
