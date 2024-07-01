@@ -6,7 +6,7 @@ pipeline {
         stage('Change File Permissions') {
             steps {
                 script {
-                    // Change file permissions for build.sh and deploy.sh
+                    // Change the file permissions for build.sh and deploy.sh
                     sh 'chmod +x build-image.sh'
                     sh 'chmod +x deploy.sh'
                 }
