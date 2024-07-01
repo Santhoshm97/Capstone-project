@@ -10,7 +10,7 @@ echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
 LOCAL_IMAGE="react-app-name"
 
-echo "Tagging the Docker image..."
+echo "Tagging the Docker image...."
 docker tag "${LOCAL_IMAGE}" "$DOCKER_USERNAME/${DOCKER_REPO}:${DOCKER_TAG}"
 
 
