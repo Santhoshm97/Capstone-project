@@ -2,7 +2,7 @@
 
 DOCKER_USERNAME="san3326"
 DOCKER_PASSWORD="dckr_pat_q_9wDhauHFnZW1FPI1iPu_wvt-k"
-DOCKER_REPO="prod"
+DOCKER_REPO="dev"
 DOCKER_TAG="latest"
 
 echo "Logging in to Docker Hub..."
